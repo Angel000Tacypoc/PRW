@@ -5,6 +5,23 @@
   font-family: Madimi One, Roboto;
 }
 
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 57%;
+  height: 100%;
+  background-image: url('images/pexels-luis-quintero-11962594.jpg');
+  background-size: cover; 
+  background-position: left; 
+  background-clip: content-box; /* Recorta la imagen */
+  opacity: 0.5; /* Ajusta la opacidad según lo desees */
+}
+
+.content {
+  position: relative; /* Asegura que el contenido esté encima de la imagen de fondo */
+}
+
 .Train {
   width: 100%;
   height: 100vh;
@@ -63,6 +80,7 @@ nav ul li a{
   color: #fff;
   transition-duration: 0.5s;
   transition-property: color;
+  
 }
 
 .content h1:hover {
